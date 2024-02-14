@@ -191,6 +191,9 @@ section {
     margin: auto 0;
 }
 
+.profile-pic {
+    border-radius: 50%;
+}
 .section__text {
     align-self: center;
     text-align: center;
@@ -296,10 +299,6 @@ section {
     
 }
 
-.about-pic {
-    border-radius: 2rem;
-}
-
 .arrow {
     position: absolute;
     right: -5rem;
@@ -317,14 +316,9 @@ section {
 }
 
 .section-container {
-    gap: 4rem;
-    height: 80%;
-}
-
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* EXPERIENCE SECTION */
